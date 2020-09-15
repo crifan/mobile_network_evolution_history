@@ -1,0 +1,19 @@
+{
+  "title": "移动网络演化史",
+  "description": "总结移动网络的演化历史，包括相关的1G、2G和GSM、3G和UMTS及CDMA2000、4G和LTE、5G和NR等网络的名称和背后所用的核心技术要点，以及相关的IMS等实现多媒体服务的方案，以及IMS的概述、架构、核心元素、相关协议如SIP等，以及基于IMS之上的VoLTE、RCS、ViLTE、VoWiFi等常见功能。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "mobile_network_evolution_history"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/mobile_network_evolution_history/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/mobile_network_evolution_history/pdf/mobile_network_evolution_history.pdf"
+    }
+  }
+}
