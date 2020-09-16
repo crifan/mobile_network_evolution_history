@@ -1,8 +1,4 @@
-# 用户和认证
-
-此处整理IMS中相关的用户标识，以及如何认证的过程。
-
-## 用户标识=User identities
+# 用户标识=User identities
 
 * `用户标识`=`User Identities`=`User Identitiy`
   * IMS可以使用多种用户标识
@@ -41,11 +37,11 @@
         * `+31 72 5621771`
         * `sales@vc4.com`
 
-### IMS中用户身份和编号基础知识
+## IMS中用户身份和编号基础知识
 
 * IMS中用户身份和编号 基础知识
   * ISIM文件结构
-    * ![imsm_file_structure](../../assets/img/isim_file_structure.png)
+    * ![imsm_file_structure](../../../assets/img/isim_file_structure.png)
   * ADFI SIM包含内容
     * EF<b><sub>IMPI</sub></b> – IMS private user identity,
     * EF<b><sub>DOMAIN</sub></b> - Home Network Domain Name,
@@ -59,10 +55,10 @@
     * EF<b><sub>NAFKCA</sub></b> - NAF Key Centre Address (one or more).
   * home domain
     * Home network domain name
-      * ![home_network_domain_name](../../assets/img/home_network_domain_name.png)
+      * ![home_network_domain_name](../../../assets/img/home_network_domain_name.png)
       * 对应标准：`IETF RFC 1035`
       * Home network domain name derivation from IMSI
-        * ![home_network_domain_name_from_imsi](../../assets/img/home_network_domain_name_from_imsi.png)
+        * ![home_network_domain_name_from_imsi](../../../assets/img/home_network_domain_name_from_imsi.png)
   * IMPI
     * Private user identity=Private Identity=IP Multimedia Private Identity=IMPI
     * 每个IMS用户都有一个Private User Identities
@@ -76,12 +72,12 @@
       * NAI=Network Access Identifier
       * 语法：username@realm
     * 举例
-      * ![impi_example_private_use_identity](../../assets/img/impi_example_private_use_identity.png)
+      * ![impi_example_private_use_identity](../../../assets/img/impi_example_private_use_identity.png)
     * Private User Identity derivation from IMSI
       * 3GPP中没有IMSI，所以需要从IMSI中推算出来
         * IMSI=International Mobile Subscriber Identity=国际移动用户识别码
       * Private user identity derivation from IMSI
-        * ![private_user_identity_from_imsi](../../assets/img/private_user_identity_from_imsi.png)
+        * ![private_user_identity_from_imsi](../../../assets/img/private_user_identity_from_imsi.png)
   * IMPU
     * =Public User Identity=Public identity=IP Multimedia PUblic identity=IMPU
     * 概述
@@ -109,7 +105,7 @@
         * SIP URI
           * `sip:+1-212-555-1212 @gateway.com;user=phone`
       * 图
-        * ![public_user_identity](../../assets/img/public_user_identity.png)
+        * ![public_user_identity](../../../assets/img/public_user_identity.png)
   * WPUI=Wildcarded Public User Identity=通配公共享户标识
     * IMPU可能会被以WPUI的方式存储在HSS中
     * WPUI目的是为了针对注册了大量的账号，且其处理方式都类似的场景实现优化
@@ -122,7 +118,7 @@
       * `sip:user!.*!@example.com`
       * `tel:4832376630!.*!`
       * 图
-        * ![wildcarded_user_identity](../../assets/img/wildcarded_user_identity.png)
+        * ![wildcarded_user_identity](../../../assets/img/wildcarded_user_identity.png)
   * IMPI 和 IMPU 关系
     * Relationship of Private and Public User Identities
-      * ![private_and_public_use_identity_relation](../../assets/img/private_and_public_use_identity_relation.png)
+      * ![private_and_public_use_identity_relation](../../../assets/img/private_and_public_use_identity_relation.png)

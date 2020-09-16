@@ -60,6 +60,8 @@
     * 2G和3G
       * High-level network diagram for GSM (2G) and UMTS (3G)
         * ![network_arch_2g_3g](../assets/img/network_arch_2g_3g.png)
+      * SMS in 2G/3G network architecture
+        * ![network_arch_sms_in_2g_3g](../assets/img/network_arch_sms_in_2g_3g.jpg)
     * 3G和4G
       * High-level network diagram for UMTS (3G) and LTE (4G)
         * ![network_arch_3g_4g](../assets/img/network_arch_3g_4g.png)

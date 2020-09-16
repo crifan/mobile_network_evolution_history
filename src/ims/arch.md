@@ -33,9 +33,10 @@
     * ![ims_arch_interface_net](../assets/img/ims_arch_interface_net.png)
   * 3GPP R7参考模型
     * ![3gpp_r7_refer_model](../assets/img/3gpp_r7_refer_model.png)
-  * TISPAN R1参考模型
-    * ![tispan_r1_refer_model](../assets/img/tispan_r1_refer_model.png)
-    * ![tispan_ims_refer_model](../assets/img/tispan_ims_refer_model.png)
+  * IMS网络架构
+    * ![ims_network_arch](../assets/img/ims_network_arch.png)
+  * IMS and MSRP
+    * ![ims_and_msrp](../assets/img/ims_and_msrp.png)
   * 基于IMS的下一代服务平台
     * Service Convergence in Quadruple Play
       * ![ims_service_convergence](../assets/img/ims_service_convergence.png)

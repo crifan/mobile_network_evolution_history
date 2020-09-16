@@ -1,5 +1,24 @@
 # 名词术语
 
+* CPM=Converged IP Messaging
+* ISF=Interworking Selection Function
+* IWF=Interworking Function
+  * SMS-IWF
+  * MMS-IWF
+  * EMAIL-IWF
+* OMA
+  * NI=Network Interface
+    * UNI=User-Network Interface
+    * NNI=Network-Network Interface
+  * MO=Management Objects
+  * DM=Data Management
+  * CP=Contents Provisioning
+  * XDM=XML Document Management
+    * XDMS=XML Document Management Server
+  * PF=Participating Function
+  * CF=Controlling Function
+* MMSC=MultiMedia Service Center
+* SMSC=SM-SC=Short Message Service Center
 * AMPS=Advanced Mobile Phone System
 * TACS=Total Access Communications System
 * NMT=Nordisk MobilTelefoni
