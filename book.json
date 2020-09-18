@@ -1,6 +1,6 @@
 {
   "title": "移动网络演化史",
-  "description": "总结移动网络的演化历史，包括相关的1G、2G和GSM、3G和UMTS及CDMA2000、4G和LTE、5G和NR等网络的名称和背后所用的核心技术要点，以及实现多媒体服务的方案IMS，包括IMS的概述、架构、核心元素、相关内容如ETSI、TISPAN、SIP、用户认证、SIM卡、用户标识、IMS认证、SIP授权认证、SBC等，以及基于IMS之上的VoLTE、RCS、ViLTE、VoWiFi等常见协议。",
+  "description": "总结移动网络的演化历史，包括移动网络的概述，相关基础知识，比如信号、信号传输、无线信号传输、蜂窝网络等，总结移动网络组成即接入网RAN和核心网络CN，总结移动网络的代际发展，包括1G、2G的GSM、3G的UMTS和CDMA2000、4G的LTE、5G的NR，及其背后核心技术要点，对移动网络进行总结，包括各种演化细节和常见架构，最后给出一些相关具体实现。且附录了一些名词术语的缩写和个别术语的详细解释。",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [

@@ -8,10 +8,7 @@ DOING:
 
 TODO:
 
-* 【整理】RCS相关名词和含义解析和逻辑关系
-* 【整理】什么是ABG
-* 【整理】什么是DSLAM
-
+* 
 ---
 
 DONE:
@@ -19,15 +16,14 @@ DONE:
 * 【整理】什么是IBCF CBGF SBC
 * 【整理】什么是MSC SMSC GMSC
 * 【整理】什么是HLR AuC
-* 【整理】IMS架构兼容不同阶段和类型无线网络
-* 【整理】IMS即IP多媒体子系统详解
-* 【整理】IMS系统中的User Identity用户标识用户身份相关基础知识
-* 【整理】什么是GPRS GSM LTE
-* 【已解决】rcsjta项目RCS中IMS认证方式GIBA和DIGEST区别
-* 【整理】IMS相关知识学习：es_282001v020000m.pdf TISPAN NGN Functional Architecture
-* 【整理】搞清楚RCS和IMS的架构逻辑关系
-* 【整理】NGN和TISPAN和IMS架构和相关组织关系整理
 * 【整理】ETSI和TISPAN和NGN协议标准及相关内容
+* 【整理】什么是GPRS GSM LTE
+* 【整理】什么是ABG
+* 【整理】什么是DSLAM
+* 【整理】RCS相关基础知识：无线网络信号传输基础知识
+* 【整理】RCS相关基础知识：GSM SS BSS
+* 【整理】什么是GERAN UTRAN E‐UTRAN RAN
+* 【整理】什么是Telco和Telco platform
 * 
 * [5G技术概述](https://book.crifan.com/books/5g_tech_summary/website/)
 * [5G消息RCS技术总结](https://book.crifan.com/books/5g_message_rcs_tech_summary/website/)
@@ -51,22 +47,8 @@ DONE:
 * [Differentiate Between 4G LTE and Non-Standalone 5G NR Antennas | Microwaves & RF](https://www.mwrf.com/technologies/systems/article/21849222/differentiate-between-4g-lte-and-nonstandalone-5g-nr-antennas)
 * [Qualcomm Future of 5G Building a unified, more capable 5G air interface for the next decade and beyond](https://www.qualcomm.com/media/documents/files/making-5g-nr-a-commercial-reality.pdf)
 * [The-5G-Guide_GSMA_2019_04_29_compressed.pdf](https://www.gsma.com/wp-content/uploads/2019/04/The-5G-Guide_GSMA_2019_04_29_compressed.pdf)
-* [基于IMS的固定和移动网络融合 - 技术现状IMS全面推动业务能力开放 ICT融合应用开启政企市场蓝海专题 — C114(通信网)](http://www.c114.com.cn/topic/1673/a449793.html)
-* [IMS网络在全业务运营背景下的地位 - C114通信网](https://m.c114.com.cn/w169-758130.html)
-* [VoLTE移动语音演进之路](https://carrier.huawei.com/cn/technical-topics/wireless-network/VoLTE/1)
-* [S.5 Network Domain Security for IMS – iTecTec](https://itectec.com/spec/s-5-network-domain-security-for-ims/)
-* [IMS Identification and numbering | Rauf's Knowledge Portal](https://raufakram.wordpress.com/2013/07/02/ims-identification-and-numbering/)
-* [ims_identification_and_numbering.pdf](http://www.leliwa.com/downloads/ims_identification_and_numbering.pdf)
-* [实现 IMS  |  Android 开源项目  |  Android Open Source Project](https://source.android.google.cn/devices/tech/connect/ims?hl=zh-cn)
-* [IMS/SIP - RCS : Presence Notify ShareTechnote](http://www.sharetechnote.com/html/IMS_SIP_RCS_PresenceNotify.html)
-* [Much Ado about Registration | Real Time Communication](https://realtimecommunication.wordpress.com/2014/11/14/much-ado-about-registration/)
-* [Toward a Service Broker for telecom service integration in IMS network | Semantic Scholar](https://www.semanticscholar.org/paper/Toward-a-Service-Broker-for-telecom-service-in-IMS-Haddar-Raouyane/0270f23ca197ca98b09008c14dd2cba18960f12d)
 * [Telecoms & Internet converged Services & Protocols for Advanced Networks - Wikipedia](https://en.wikipedia.org/wiki/Telecoms_%26_Internet_converged_Services_%26_Protocols_for_Advanced_Networks)
 * [Telecommunication and Internet Converged Services and Protocols for Advanced Networks - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/Telecommunication_and_Internet_Converged_Services_and_Protocols_for_Advanced_Networks)
-* [Svyazcom — IM-SSF](http://svyazcom.ru/imssf/)
-* [IP Multimedia Service Switching Function (IM-SSF)](https://www.exfo.com/zh/resources/glossary/ip-multimedia-service-switching-function-im-ssf/)
-* [IM-SSF - IP Multimedia - Service Switching Function](https://www.mpirical.com/glossary/im-ssf-ip-multimedia-service-switching-function)
-* [RFC 3398 - Integrated Services Digital Network (ISDN) User Part (ISUP) to Session Initiation Protocol (SIP) Mapping](https://tools.ietf.org/html/rfc3398)
 * [draft-ietf-sip-isup-03 - ISUP to SIP Mapping](https://tools.ietf.org/html/draft-ietf-sip-isup-03)
 * [SIP-AS - SIP Application Server](https://www.mpirical.com/glossary/sip-as-sip-application-server)
 * [Plain old telephone service - Wikipedia](https://en.wikipedia.org/wiki/Plain_old_telephone_service)
@@ -75,7 +57,6 @@ DONE:
 * [CableLabs - Wikipedia](https://en.wikipedia.org/wiki/CableLabs)
 * [SCTE- ISBE Live Learning Webinar Series: Getting Ready for DOCSIS 4.0 | Light Reading](https://www.lightreading.com/webinar.asp?webinar_id=1534)
 * [Cable_Architecture_Declaration_01.14.10.pdf](https://standards.tiaonline.org/gov_affairs/fcc_filings/documents/Cable_Architecture_Declaration_01.14.10.pdf)
-* [02_TISPAN_Muench.pdf](https://docbox.etsi.org/Workshop/2008/200805_TISPANWORKSHOP/02_TISPAN_Muench.pdf)
 * [PTT : Push-To-Talk](http://www.krnet.or.kr/board/data/dprogram/880/J2-2_%C0%FC%BF%B5%C8%F1_%C3%D6%C1%BE.pdf)
 * [WAG - WLAN Access Gateway](https://www.mpirical.com/glossary/wag-wlan-access-gateway)
 * [What is the difference between a Hotspot and an Access Point and a Wireless Access Point?](https://support.hexagonmi.com/s/article/What-is-the-difference-between-a-Hotspot-and-an-Access-Point-and-a-Wireless-Access-Point-1527312298003)
@@ -84,10 +65,39 @@ DONE:
 * [What does WAP or WAG or WDM written over train engine signifies? - Quora](https://www.quora.com/What-does-WAP-or-WAG-or-WDM-written-over-train-engine-signifies)
 * [Wi-Fi Access Gateways - TechLibrary - Juniper Networks](https://www.juniper.net/documentation/en_US/junos/topics/topic-map/wifi-access-gateways.html#id-wi-fi-access-gateway-overview)
 * [GPRS core network - Wikipedia](https://en.wikipedia.org/wiki/GPRS_core_network)
-* [es_282001v020000m.pdf](https://www.etsi.org/deliver/etsi_es/282000_282099/282001/02.00.00_50/es_282001v020000m.pdf)
-* [Telecommunications and Internet converged Services and Protocols for Advanced Networking (TISPAN); NGN Functional Architecture](https://www.etsi.org/deliver/etsi_es/282000_282099/282001/02.00.00_50/es_282001v020000m.pdf)
-* [TISPAN](https://portal.etsi.org/tispan/TISPAN_ToR.asp)
-* [Overview of ETSI TISPAN IPTV ETSI TISPAN](https://docbox.etsi.org/zArchive/TISPAN/Open/Information/NGN_Presentations/TISPAN%20work%20overview/TISPAN_IPTV_Feb2010.pdf)
-* [ETSI NGN Work: TISPAN Status](https://www.itu.int/ITU-T/worksem/h325/200605/presentations/s1p4-brennan.pdf)
 * [CENELEC - About CENELEC - Who we are - Technical Bodies](https://www.cenelec.eu/aboutcenelec/whoweare/technicalbodies/index.html)
+* [What is DSLAM (Digital Subscriber Line Access Multiplexer)? - Definition from WhatIs.com](https://searchnetworking.techtarget.com/definition/DSLAM-Digital-Subscriber-Line-Access-Multiplexer)
+* [ADSL和DSLAM的概念-cxkong-51CTO博客](https://blog.51cto.com/2010kong/143793)
+* [数字用户线接入复用器 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/數位用戶線路接取多工器)
+* [Signalling in GSM BSS - Training Materials - Training offer - Leliwa](http://www.leliwa.com/en/training-materials,150,signalling-in-gsm-bss,325.chtm)
+* ["Signalling in GSM BSS" - Chapter 11 MSC in Pool (sample) by Leliwa - issuu](https://issuu.com/leliwa/docs/signalling_in_gsm_bss_chapter_11_ms)
+* [What is the Radio Access Network (RAN)? — SDxCentral](https://www.sdxcentral.com/5g/definitions/radio-access-network/)
+* [The Evolved Packet Core](https://www.3gpp.org/technologies/keywords-acronyms/100-the-evolved-packet-core)
+* [系统架构演进 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/系统架构演进)
+* [What is Evolved Packet Core (EPC) ? - Definition from WhatIs.com](https://searchnetworking.techtarget.com/definition/Evolved-Packet-Core-EPC)
+* [LTE 4G & 5G Radio Access Network (RAN) - CableFree](https://www.cablefree.net/wirelesstechnology/4glte/lte-4g-5g-radio-access-network-ran/)
+* [Evolution of Core Network(3G vs. 4G vs. 5G) | by Sarp Köksal | Medium](https://medium.com/@sarpkoksal/core-network-evolution-3g-vs-4g-vs-5g-7738267503c7)
+* [Evolution of Core Networks](https://www.slideshare.net/sarpkoksal/evolution-of-core-networks)
+* [VoLTE_RCS_TECHNOLOGY_ECO-SYSTEM_AND_EVOLUTION_Final_for_upload.pdf](https://www.5gamericas.org/wp-content/uploads/2019/07/VoLTE_RCS_TECHNOLOGY_ECO-SYSTEM_AND_EVOLUTION_Final_for_upload.pdf)
+[UMTS Terrestrial Radio Access Network - Wikipedia](https://en.wikipedia.org/wiki/UMTS_Terrestrial_Radio_Access_Network)
+* [Radio Network Controller - Wikipedia](https://en.wikipedia.org/wiki/Radio_Network_Controller)
+* [Node B - Wikipedia](https://en.wikipedia.org/wiki/Node_B)
+* [Radio access network - Wikipedia](https://en.wikipedia.org/wiki/Radio_access_network)
+* [Base transceiver station - Wikipedia](https://en.wikipedia.org/wiki/Base_transceiver_station)
+* [Radio access technology - Wikipedia](https://en.wikipedia.org/wiki/Radio_access_technology)
+* [Backbone network - Wikipedia](https://en.wikipedia.org/wiki/Backbone_network)
+* [Mobile station - Wikipedia](https://en.wikipedia.org/wiki/Mobile_station)
+* [GERAN - Wikipedia](https://en.wikipedia.org/wiki/GERAN)
+* [E-UTRA - Wikipedia](https://en.wikipedia.org/wiki/E-UTRA#EUTRAN_protocol_stack)
+* [UTRAN - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/UTRAN)
+* [LTE Tutorial: E-UTRAN Architecture](https://www.artizanetworks.com/resources/tutorials/eut_arc.html)
+* [The platform business model: the new way for telcos to compete | BearingPoint](https://www.bearingpoint.com/en/our-success/thought-leadership/the-platform-business-model-the-new-way-for-telcos-to-compete/)
+* [The opportunity for telcos in the coming platform revolution | Platform Strategy – by Sangeet Paul Choudary](https://platformed.info/the-opportunity-for-telcos-in-the-coming-platform-revolution/)
+* [How do platform principles apply to telcos? - TM Forum Inform](https://inform.tmforum.org/internet-of-everything/2017/08/platform-principles-apply-telcos/)
+* [The Platform Economics of Telco](https://inform.tmforum.org/internet-of-everything/2014/06/the-platform-economics-of-telco/)
+* [Telco platform | Fortumo.com](https://fortumo.com/telco/)
+* [Mobile network operator - Wikipedia](https://en.wikipedia.org/wiki/Mobile_network_operator)
+* [What is Carrier Network | IGI Global](https://www.igi-global.com/dictionary/designing-new-service-overlay-carrier/3376)
+* [Carrier Network - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/computer-science/carrier-network)
 * 
+

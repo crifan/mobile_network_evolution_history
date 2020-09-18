@@ -28,11 +28,55 @@ TODO:
   * 相关技术
     * Massive MIMO
       * ![4g_anttena_5g_apaa](../../assets/img/4g_anttena_5g_apaa.png)
-  * 应用
-    * 概览
-      * ![one_figure_view_all_5g_app](../../assets/img/one_figure_view_all_5g_app.jpg)
-      * ![5g_essential_of_next_mobile](../../assets/img/5g_essential_of_next_mobile.jpg)
-      * ![5g_expand_mobile_to_industry](../../assets/img/5g_expand_mobile_to_industry.jpg)
+  * 架构
+    * 总体架构
+      * Reference Point Architecture of 5G Core Network
+        * ![5g_ref_point_arch](../../assets/img/5g_ref_point_arch.png)
+      * Service-based Architecture of 5G Core Network
+        * ![5g_service_based_arch](../../assets/img/5g_service_based_arch.png)
+    * 细节
+      * Policy Control Mechanism in 5G Core Network
+        * ![5g_arch_policy_ctrl](../../assets/img/5g_arch_policy_ctrl.png)
+  * 核心元素=核心功能(function)
+    * 包含
+      * `AMF`=`Access and Mobility Management function`
+      * `SMF`=`Session Management function`
+      * `UPF`=`User plane function`
+      * `PCF`=`Policy Control Function`
+      * `AUSF`=`Authentication Server Function`
+      * `UDM`=`Unified Data Management`
+      * `AF`=`Application Function`
+      * `NEF`=`Network Exposure function`
+      * `NRF`=`NF Repository function`
+      * `NSSF`=`Network Slice Selection Function`
+    * Classification of 5G Core Networks
+      * ![5g_cn_function_classification](../../assets/img/5g_cn_function_classification.png)
+
+## 4G vs 5G
+
+* 4G和5G技术参数对比
+
+| Technology | Data Rates | Latency | Mobility Support | Spectrum Efficiency | Users Density |Energy Efficiency |
+| ---------- | ---------- | ------------------------ | ------------------- | ------------- | ---------- |
+| 5G (NR) | Avg 100 Mb/s<br/>Peak 20 Gb/s |  ~ 1 ms | >500 Km/h | x3 Better<br/>DL- 30 bits/Hz<br/>UL- 15bits/Hz |  1000K/Km<sup>2</sup> | x100 Better |
+| 4G (LTE) | Avg 25 Mb/s<br/>Peak 300 Mb/s |  ~10- 50 ms | <=350 Km/h | DL – 6 bits/Hz<br/>UL- 4 Bits/Hz | ~ 2K/Km<sup>2</sup> | Moderate |
+
+* 4G和5G核心网络功能演化对比
+  * Comparison of 4G Core Network and 5G Core Network
+    * ![4g_vs_5g_core_network](../../assets/img/4g_vs_5g_core_network.png)
+  * Transformation of 4G Core Network Functions to 5G Core Network Functions
+    * ![4g_vs_5g_cn_function_transform](../../assets/img/4g_vs_5g_cn_function_transform.png)
+    * 具体细节
+      * Transformation of MME into AMF&UDM
+        * ![4g_vs_5g_mme_into_amf_udm](../../assets/img/4g_vs_5g_mme_into_amf_udm.png)
+
+## 5G应用
+
+* 应用
+  * 概览
+    * ![one_figure_view_all_5g_app](../../assets/img/one_figure_view_all_5g_app.jpg)
+    * ![5g_essential_of_next_mobile](../../assets/img/5g_essential_of_next_mobile.jpg)
+    * ![5g_expand_mobile_to_industry](../../assets/img/5g_expand_mobile_to_industry.jpg)
 
 ## 5G标准版本历史
 
@@ -53,13 +97,7 @@ TODO:
       * `V2V`=`Vehicle to Vehicle`
     * 预计2021年：`Release 17`
 
-## 4G vs 5G
-
-| Technology | Data Rates | Latency | Mobility Support | Spectrum Efficiency | Users Density |Energy Efficiency |
-| ---------- | ---------- | ------------------------ | ------------------- | ------------- | ---------- |
-| 5G (NR) | Avg 100 Mb/s<br/>Peak 20 Gb/s |  ~ 1 ms | >500 Km/h | x3 Better<br/>DL- 30 bits/Hz<br/>UL- 15bits/Hz |  1000K/Km<sup>2</sup> | x100 Better |
-| 4G (LTE) | Avg 25 Mb/s<br/>Peak 300 Mb/s |  ~10- 50 ms | <=350 Km/h | DL – 6 bits/Hz<br/>UL- 4 Bits/Hz | ~ 2K/Km<sup>2</sup> | Moderate |
-
 ## 运营商支持5G情况
 
 ![global_mno_support_5g](../../assets/img/global_mno_support_5g.jpg)
+

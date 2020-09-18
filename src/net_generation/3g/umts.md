@@ -58,3 +58,13 @@
         * 其中的3rd Generation，就是3G
           * 就是为了3G弄了个组织，用于协调统一各方标准，实现3G网络推广
   * 最新情况：3GPP制定的UMTS标准
+  * 核心逻辑：UE <-> UTRAN <-> CN
+  * 架构：
+    * ![umts_ue_utran_cn](../../assets/img/umts_ue_utran_cn.jpg)
+    * UMTS的RAN包含
+      * UE：用户终端=移动设备=手机
+      * Node B：一个网络节点
+        * 负责：连接UE和RNC
+        * 对应着：GSM中的BTS
+          * BSC=Base Station Controller：（网络）基站
+      * RNC：在UTRAN网络中的，一个网络控制（管理）节点
